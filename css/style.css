@@ -1,0 +1,161 @@
+html,
+body {
+  height: 100%;
+}
+
+
+/* nav bar */
+.navbar-brand{
+  padding-left: 30px;
+}
+
+
+
+/* jumbotron */
+.jumbotron{
+  background-color: gray;
+  color: black;
+  margin: 0.6rem 0 0 0;
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 6px;
+  height: 12rem;
+  width: 100%;
+  
+  
+}
+.jumbotron h1 {
+  margin-bottom: 0.5rem;
+  margin-top: 1.75rem;
+}
+
+
+
+/* cover/ hero-unit  */
+#cover {
+  background-image: url("../img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: seashell;
+  height: 100%;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+#cover-caption{
+  width: 100%;
+}
+
+
+
+
+
+
+/* latest models single grid */
+.samplegrid{
+  background-color: black;
+  color: gray;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px; 
+  padding: 1.5rem 0 1rem 0;
+}
+.samplegrid h3{
+  padding-left: 2rem;
+}
+
+
+
+
+/* card styling */
+.card{
+  background-color: black;
+  color: white;
+
+}
+
+.card a{
+  color: coral;
+}
+
+
+
+
+/* tabbed pane */
+.tabbed{
+  background-color: gray;
+  padding: 1rem 0 1rem 0;
+}
+
+.tabbed a{
+  padding-right: 20px;
+  color: ivory;
+}
+
+
+
+/* modal styling */
+.subscribe{
+  background-color: rgba(0, 0, 0, 0.425);
+  color: black;
+  padding: 1rem 0 1rem 0;
+
+}
+
+
+
+
+
+
+
+
+
+/* 3 grid styling */
+.newgrid{
+  background-color: rgba(0, 0, 0, 0.281);
+  color: brown;
+  font-family: 'Lobster', cursive;
+  font-size: 20px; 
+  padding: 0.8rem 0 0.8rem 0;
+
+}
+.newgrid a{
+  padding-left: 100px;
+}
+
+
+
+/* footer styling */
+footer{
+  background-color: black;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 18px; 
+  padding: 0.5rem 0 0.5rem 0;
+}
+footer h4{
+  color: gray;
+}
+footer ul a {
+  display: inline;
+  padding-right: 20px;
+}
+
+footer ul a {
+  text-decoration: none;
+  padding-left: -50px;
+  color: white;
+
+}
+
+footer ul a:hover {
+  color: slateblue;
+}
+
+footer li {
+  display: inline;
+  padding-right: 20px;
+}
